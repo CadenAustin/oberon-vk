@@ -1,0 +1,19 @@
+[package]
+name = "oberon-vk"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "oberon_vk"
+path = "src/lib.rs"
+
+[[bin]]
+name = "oberon-vk"
+path = "src/bin/main.rs"
+
+[dependencies]
+winit = "0.30.5"
+ash = "0.38.0+1.3.281"
+image = "0.25.2"
+tobj = "4.0.2"
+cgmath = "0.18.0"
